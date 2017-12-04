@@ -1,14 +1,10 @@
-﻿NewCoursesIntent what are todays new releases
-NewCoursesIntent todays new releases
-NewCoursesIntent latest courses
-
-TopCoursesIntent popular
-TopCoursesIntent top courses
-
-TopCoursesIntent top {Limit} {Criteria}
-TopCoursesIntent get the {Limit} most popular {Criteria}
-TopCoursesIntent get the {Limit} top {Criteria}
+﻿HelloWorldIntent fit like
+HelloWorldIntent how are you
+HelloWorldIntent foo are you dee ing
+HelloWorldIntent fit like min
+HelloWorldIntent arite
+HelloWorldIntent awrite
 
 AMAZON.CancelIntent cease everything
-AMAZON.StopIntent abort getting pluralsight feed
+AMAZON.StopIntent wheesht
 AMAZON.HelpIntent give me guidance
