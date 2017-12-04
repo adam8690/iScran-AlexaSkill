@@ -38,13 +38,13 @@ namespace AlexaApi.Controllers
                     outputSpeech = new
                     {
                         type = "PlainText",
-                        text = "Fit like the day!"
+                        text = "Nay bad yer cell!"
                     },
                     card = new
                     {
                         type = "Simple",
                         title = "Pluralsight",
-                        content = "Fit like\ncruel world!"
+                        content = "Nae bad yersel?"
                     },
                     shouldEndSession = true
                 }
