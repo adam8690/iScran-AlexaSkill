@@ -1,0 +1,10 @@
+/home/adam/Desktop/netcore/AlexaApi/bin/Debug/netcoreapp2.0/AlexaApi.deps.json
+/home/adam/Desktop/netcore/AlexaApi/bin/Debug/netcoreapp2.0/AlexaApi.runtimeconfig.json
+/home/adam/Desktop/netcore/AlexaApi/bin/Debug/netcoreapp2.0/AlexaApi.runtimeconfig.dev.json
+/home/adam/Desktop/netcore/AlexaApi/bin/Debug/netcoreapp2.0/AlexaApi.dll
+/home/adam/Desktop/netcore/AlexaApi/bin/Debug/netcoreapp2.0/AlexaApi.pdb
+/home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.csproj.CoreCompileInputs.cache
+/home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.AssemblyInfoInputs.cache
+/home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.AssemblyInfo.cs
+/home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.dll
+/home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.pdb
