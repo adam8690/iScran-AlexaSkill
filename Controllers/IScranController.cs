@@ -99,7 +99,7 @@ namespace AlexaApi
                     {
                         if (slots[0].Key.Equals("Number"))
                         {
-                            var index = Int32.Parse(slots[1].Value);
+                            var index = Int32.Parse(slots[0].Value);
                             output.AppendFormat("You have ordered: {0}.", promotions[index]);
                         }
                         if (slots[0].Key.Equals("Item"))
