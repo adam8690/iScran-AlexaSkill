@@ -18,3 +18,4 @@ d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.Assembl
 d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.AssemblyInfo.cs
 d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.dll
 d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.pdb
+D:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.csprojResolveAssemblyReference.cache

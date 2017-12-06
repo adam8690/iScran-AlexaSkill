@@ -1,10 +1,24 @@
-﻿HelloWorldIntent fit like
-HelloWorldIntent how are you
-HelloWorldIntent foo are you dee ing
-HelloWorldIntent fit like min
-HelloWorldIntent arite
-HelloWorldIntent awrite
+﻿PromotionsIntent what are the promotions today
+PromotionsIntent what are todays promotions
+PromotionsIntent are there any food promotions on today
+PromotionsIntent are there any promotions available today
+PromotionsIntent tell me todays promotions
+PromotionsIntent tell me todays food promotions
+PromotionsIntent what are todays food deals
+PromotionsIntent what are the deals today
+PromotionsIntent what are the food deals today
+PromotionsIntent tell me todays food deals
+PromotionsIntent are there any deals on today
+PromotionsIntent what food deals are on
+PromotionsIntent tell me the deals pal
+PromotionsIntent i want some scran
+PromotionsIntent gee us some scran
+PromotionsIntent scran me
+PromotionsIntent ive got the munchies
 
-AMAZON.CancelIntent cease everything
+
+AMAZON.CancelIntent stop
+AMAZON.CancelIntent shtop
+AMAZON.CancelIntent dinae dee at
 AMAZON.StopIntent wheesht
 AMAZON.HelpIntent give me guidance
