@@ -95,16 +95,23 @@ namespace AlexaApi
                     break;
                 case "OrderIntent":
                     var slots = request.Intent.GetSlots();
-                    if (slots[0].Value != null)
+                    if (slots.Any())
                     {
-                        output.AppendFormat("You have ordered: {0}.", slots[0].Value);
+                        if (slots[0].Key.Equals("Number"))
+                        {
+                            var index = Int32.Parse(slots[1].Value);
+                            output.AppendFormat("You have ordered: {0}.", promotions[index]);
+                        }
+                        if (slots[0].Key.Equals("Item"))
+                        {
+                            output.AppendFormat("You have ordered: {0}.", slots[0].Value);
+                        }
+                        output.Append("If you don't want that order, that tough because you can't take it back!");
                     }
-                    else if (slots[1].Value != null)
+                    else
                     {
-                        var index = Int32.Parse(slots[1].Value);
-                        output.AppendFormat("You have ordered: {0}.", promotions[index]);
+                        output.Append("We didnt understand your order ye numpty");
                     }
-                    output.Append("If you don't want that order, that tough because you can't take it back!");
                     break;
                 case "StopIntent":
                     output.Append("STOP RIGHT NOW");
