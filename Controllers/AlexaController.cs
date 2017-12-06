@@ -45,7 +45,7 @@ namespace AlexaApi
             };
         }
 
-        [HttpPost, Route("api/alexa/iscran")]
+        [HttpPost, Route("iscran")]
         public dynamic Scran([FromBody] AlexaRequest alexaRequest)
         {
             var request = alexaRequest.Request;
