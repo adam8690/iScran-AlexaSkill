@@ -16,6 +16,8 @@ PromotionsIntent gee us some scran
 PromotionsIntent scran me
 PromotionsIntent ive got the munchies
 
+OrderIntent Order promotion {Number}
+OrderIntent Order {Item}
 
 AMAZON.CancelIntent stop
 AMAZON.CancelIntent shtop

@@ -2,7 +2,20 @@
   "intents": [
     {
       "intent": "PromotionsIntent",
-      "slots":  []
+      "slots": []
+    },
+    {
+      "intent": "OrderIntent",
+      "slots": [
+        {
+          "name": "Number",
+          "type": "NUMBER"
+        },
+        {
+          "name": "Item",
+          "type": "ITEM"
+        }
+      ]
     },
     {
       "intent": "AMAZON.CancelIntent",
