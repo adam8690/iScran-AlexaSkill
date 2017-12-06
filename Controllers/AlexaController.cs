@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AlexaApi.Data;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AlexaApi.Controllers
+namespace AlexaApi
 {
     [Route("api/[controller]")]
     public class AlexaController : Controller
@@ -14,13 +15,6 @@ namespace AlexaApi.Controllers
         public IEnumerable<string> Get()
         {
             return new string[] { "Hello", "there" };
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "Hello";
         }
 
         [HttpPost, Route("demo")]
@@ -49,6 +43,43 @@ namespace AlexaApi.Controllers
                     shouldEndSession = true
                 }
             };
+        }
+
+        [HttpPost, Route("api/alexa/iscran")]
+        public dynamic Scran(AlexaRequest alexaRequest)
+        {
+            var request = alexaRequest.Request;
+            AlexaResponse response = null;
+
+            switch (request.Type)
+            {
+                case "LaunchRequest":
+                    response = LaunchRequestHandler(request);
+                    break;
+                case "IntentRequest":
+                    response = IntentRequestHandler(request);
+                    break;
+                case "SessionEndedRequest":
+                    response = SessionEndedRequestHandler(request);
+                    break;
+            }
+
+            return response;
+        }
+
+        private AlexaResponse SessionEndedRequestHandler(AlexaRequest.RequestAttributes request)
+        {
+            return new AlexaResponse("Bye bye");
+        }
+
+        private AlexaResponse IntentRequestHandler(AlexaRequest.RequestAttributes request)
+        {
+            return new AlexaResponse("Intent handler");
+        }
+
+        private AlexaResponse LaunchRequestHandler(AlexaRequest.RequestAttributes request)
+        {
+            return new AlexaResponse("Hello would you like to hear about our promotions");
         }
     }
 }

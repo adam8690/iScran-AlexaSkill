@@ -8,3 +8,13 @@
 /home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.AssemblyInfo.cs
 /home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.dll
 /home/adam/Desktop/netcore/AlexaApi/obj/Debug/netcoreapp2.0/AlexaApi.pdb
+d:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\AlexaApi.deps.json
+d:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\AlexaApi.runtimeconfig.json
+d:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\AlexaApi.runtimeconfig.dev.json
+d:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\AlexaApi.dll
+d:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\AlexaApi.pdb
+d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.csproj.CoreCompileInputs.cache
+d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.AssemblyInfoInputs.cache
+d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.AssemblyInfo.cs
+d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.dll
+d:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\AlexaApi.pdb
