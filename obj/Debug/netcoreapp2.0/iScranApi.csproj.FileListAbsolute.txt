@@ -1,0 +1,11 @@
+D:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\iScranApi.deps.json
+D:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\iScranApi.runtimeconfig.json
+D:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\iScranApi.runtimeconfig.dev.json
+D:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\iScranApi.dll
+D:\repository\netcore\iScran-AlexaSkill\bin\Debug\netcoreapp2.0\iScranApi.pdb
+D:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\iScranApi.csprojResolveAssemblyReference.cache
+D:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\iScranApi.csproj.CoreCompileInputs.cache
+D:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\iScranApi.AssemblyInfoInputs.cache
+D:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\iScranApi.AssemblyInfo.cs
+D:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\iScranApi.dll
+D:\repository\netcore\iScran-AlexaSkill\obj\Debug\netcoreapp2.0\iScranApi.pdb

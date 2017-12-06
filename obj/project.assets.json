@@ -12542,9 +12542,9 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\repository\\netcore\\iScran-AlexaSkill\\AlexaApi.csproj",
-      "projectName": "AlexaApi",
-      "projectPath": "D:\\repository\\netcore\\iScran-AlexaSkill\\AlexaApi.csproj",
+      "projectUniqueName": "D:\\repository\\netcore\\iScran-AlexaSkill\\iScranApi.csproj",
+      "projectName": "iScranApi",
+      "projectPath": "D:\\repository\\netcore\\iScran-AlexaSkill\\iScranApi.csproj",
       "packagesPath": "C:\\Users\\adamb\\.nuget\\packages\\",
       "outputPath": "D:\\repository\\netcore\\iScran-AlexaSkill\\obj\\",
       "projectStyle": "PackageReference",

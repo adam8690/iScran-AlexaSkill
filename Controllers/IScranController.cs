@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using AlexaApi.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -8,8 +9,14 @@ using Microsoft.AspNetCore.Mvc;
 namespace AlexaApi
 {
     [Route("api/[controller]")]
-    public class AlexaController : Controller
+    public class IScranController : Controller
     {
+        private List<string> promotions = new List<String>()
+        {
+            "Promotion one Fash and chaps",
+            "promotion two deep fried haggis"
+        };
+
         // GET api/alexa
         [HttpGet]
         public IEnumerable<string> Get()
@@ -45,7 +52,7 @@ namespace AlexaApi
             };
         }
 
-        [HttpPost, Route("iscran")]
+        [HttpPost]
         public dynamic Scran([FromBody] AlexaRequest alexaRequest)
         {
             var request = alexaRequest.Request;
@@ -74,7 +81,23 @@ namespace AlexaApi
 
         private AlexaResponse IntentRequestHandler(AlexaRequest.RequestAttributes request)
         {
-            return new AlexaResponse("Intent handler");
+            var output = new StringBuilder();
+            switch (request.Intent.Name)
+            {
+                case "PromotionsIntent":
+                    output.Append("Here are our pure tasty and cheap promos babe");
+                    foreach (var promotion in promotions)
+                    {
+                        output.Append("\n");
+                        output.Append(promotion);
+                    }
+                    output.Append("\nIf you want something, hollaaaaaa");
+                    break;
+                case "StopIntent":
+                    output.Append("STOP RIGHT NOW");
+                    break;
+            }
+            return new AlexaResponse(output.ToString());
         }
 
         private AlexaResponse LaunchRequestHandler(AlexaRequest.RequestAttributes request)
