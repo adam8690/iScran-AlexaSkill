@@ -98,12 +98,12 @@ namespace AlexaApi
                     {
                         if (slots[0].Key.Equals("Number"))
                         {
-                            var index = Int32.Parse(slots[0].Value);
-                            output.AppendFormat("You have ordered: {0}", promotions[index]);
+                            var index = Int32.Parse(slots[0].Value) - 1;
+                            output.AppendFormat("You have ordered: {0}.", promotions[index]);
                         }
                         if (slots[0].Key.Equals("Item"))
                         {
-                            output.AppendFormat("You have ordered: {0}", slots[0].Value);
+                            output.AppendFormat("You have ordered: {0}.", slots[0].Value);
                         }
                         output.Append("If you don't want that order, that's tough because you can't take it back!");
                     }
